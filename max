@@ -27,7 +27,7 @@ int query(int pos){
 	
 	pos+=ntree;
 	int ans=0;
-	while(pos){
+	while(pos){ 
 		ans = max(ans, tree[pos]);
 		pos /=2;
 	}
