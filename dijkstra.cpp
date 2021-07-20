@@ -32,24 +32,7 @@ int main() {
 				odl[u] = distance + krawedz;
 				Q.push(make_pair(-odl[u], u))
 			}
-		}
-		
-		
-		
-		
-		
-		
-		
+		}		
 	}
-
-
-
-
-
-
-
-
-
-
 	return 0;
 }
