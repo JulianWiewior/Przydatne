@@ -6,7 +6,7 @@ const long long INF = 1000000000000000000ll;
 int n, parent[N], ranga[N];
 
 void init() {
-	rep(i, 1, n) parent[i] = i;
+	for(int i=1; i<=n; i++) parent[i] = i;
 }
 
 int find(int v) {
